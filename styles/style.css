@@ -19,6 +19,7 @@
   position: relative;
   justify-content: center;
   z-index: -2;
+  margin-bottom: 100px;
 }
 
 .logo_place_header {
@@ -40,7 +41,7 @@
   font-weight: bold;
 }
 
-.subtitle {
+.header__subtitle {
   width: 388px;
   margin-left: 64px;
   z-index: 1;
@@ -56,7 +57,7 @@
   color: #2f80ed;
 }
 
-.main-illustration {
+.header__main-illustration {
   width: 756px;
   height: 608px;
   position: absolute;
@@ -65,7 +66,7 @@
   z-index: -1;
 }
 
-.square {
+.header__square {
   background-color: #2f80ed;
   width: 568px;
   height: 568px;
@@ -81,136 +82,179 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-start;
+  margin-bottom: 100px;
 }
 
-.two-colums {
+.two-columns {
   display: flex;
   width: 100%;
   columns: 2;
-  display: flexbox;
+  display: flex;
   justify-content: space-between;
-  margin: 100px;
-  align-items: baseline;
 }
 
-.brief {
+.two-columns_brief {
   width: 175px;
   font-size: 18px;
   line-height: 1.2;
   color: #2f80ed;
+  margin-left: 100px;
 }
 
-.main-text {
+.two-columns_main-text {
   width: 80%;
   min-width: 784px;
+  margin: 0;
 }
 
-.paragraph {
+.main-text__paragraph {
   line-height: 34px;
   font-size: 24px;
   min-width: 784px;
+  width: 80%;
+  row-gap: 30px;
+  margin: auto;
 }
 
-.span-accent {
+.main-text__span_accent {
   font-weight: bold;
 }
 
 .digits {
-  margin-bottom: 100px;
-  margin: auto;
-  /*   display: flex; */
-  flex-wrap: wrap;
-  justify-content: center;
-  flex-direction: column;
+  margin: 0 0 100px;
 }
 
 .section-title {
   line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
   width: 60%;
+}
+
+.section-subtitle {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  margin-bottom: 60px;
   display: flex;
   justify-content: center;
 }
 
-.secction-subtitle {
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-  margin-top: 20px;
-}
-
 .table {
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: row-reverse;
+  row-gap: 60px;
   width: 1100px;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: space-between;
+  margin: auto;
+  padding: 0;
 }
 
-.cell {
-  list-style-type: none;
+.table_cell {
   width: 250px;
-  padding-top: 60px;
+  display: flex;
+  row-gap: 20px;
+  flex-direction: column;
+  margin: 0;
 }
 
-.heading {
+.table__heading {
   font-size: 24px;
   line-height: 1.15;
   font-weight: bold;
+  margin: 0;
 }
 
-.text {
+.table__text {
   font-size: 18px;
   line-height: 1.2;
-  padding-top: 20px;
+  margin: 0;
 }
 
 .feynman {
   background-color: #f2f2f2;
   height: 790px;
-  margin-top: 100px;
-  margin-bottom: 0;
   display: flex;
   flex-direction: column;
   position: relative;
   justify-content: center;
+  z-index: -2;
   align-items: center;
+  margin-top: 90px;
+  row-gap: 80px;
 }
 
-.title {
+.feynman_title {
   line-height: 1.15;
   font-size: 120px;
   font-weight: bold;
+  width: 775px;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
 }
 
-#subtitle {
+.feynman_subtitle {
   line-height: 51px;
   font-size: 36px;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  font-weight: normal;
 }
 
-.link__feyman {
+.link__feynman {
   line-height: 52px;
   font-size: 36px;
+  display: flex;
   position: absolute;
   right: 48px;
   align-items: center;
+  z-index: 1;
 }
 
-.background-image {
+.feynman_background-image {
   width: 867px;
   height: 637px;
+  margin: auto;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -2;
 }
 
-/* here we have two examples of selectors in order to remind you how to set styles for elements */
-.header__square-pic {
-  height: 568px;
-  width: 568px;
+.kaufman {
+  margin: auto;
+  background-color: #000;
+  overflow: hidden;
+  color: white;
+  position: relative;
+  /* font-family: Arial, Helvetica, sans-serif; */
 }
 
-/* including elements with key-value modifiers */
+.section-title_theme_dark {
+  width: 60%;
+  text-align: center;
+}
+
+.section-subtitle_theme_dark {
+  line-height: 34px;
+  font-size: 24px;
+}
+
 .table__cell_theme_dark {
   width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
+}
+
+.kaufman__triangle {
+  position: absolute;
+  top: 0;
+  right: -124px;
+  width: 660px;
+  height: 636px;
+  z-index: -1;
 }
