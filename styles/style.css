@@ -86,7 +86,6 @@
 }
 
 .two-columns {
-  display: flex;
   width: 100%;
   columns: 2;
   display: flex;
@@ -197,7 +196,6 @@
   align-items: center;
   margin-top: 90px;
   row-gap: 80px;
-  z-index: -2;
 }
 
 .feynman_title {
