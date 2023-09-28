@@ -104,7 +104,7 @@
 .two-columns_main-text {
   width: 80%;
   min-width: 784px;
-  margin: 0;
+  margin: auto;
 }
 
 .main-text__paragraph {
@@ -113,7 +113,11 @@
   min-width: 784px;
   width: 80%;
   row-gap: 30px;
-  margin: auto;
+  margin: 0 auto 0;
+}
+
+.main-text__paragraph_text {
+  margin-top: 0;
 }
 
 .main-text__span_accent {
@@ -158,6 +162,7 @@
   justify-content: space-between;
   margin: auto;
   padding: 0;
+  z-index: 0;
 }
 
 .table_cell {
@@ -192,6 +197,7 @@
   align-items: center;
   margin-top: 90px;
   row-gap: 80px;
+  z-index: -2;
 }
 
 .feynman_title {
@@ -220,7 +226,6 @@
   position: absolute;
   right: 48px;
   align-items: center;
-  z-index: 1;
 }
 
 .feynman_background-image {
@@ -239,7 +244,7 @@
   overflow: hidden;
   color: white;
   position: relative;
-  /* font-family: Arial, Helvetica, sans-serif; */
+  padding: 100px 0 100px;
 }
 
 .section-title_theme_dark {
@@ -265,4 +270,79 @@
   width: 660px;
   height: 636px;
   z-index: -1;
+}
+
+.footer {
+  background-color: #000;
+  color: white;
+  min-height: 350px;
+  display: flex;
+  position: relative;
+  box-sizing: border-box;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.footer__columns {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+}
+
+.footer__column_content_copyright {
+  display: flex;
+  flex-basis: 711px;
+  justify-content: space-between;
+  flex-direction: column;
+  align-content: space-between;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.logo_place_footer {
+  width: 183px;
+  height: 35px;
+  align-self: start;
+}
+
+.footer__author {
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: normal;
+  bottom: 0;
+}
+
+.footer__column_content_about {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.column-heading {
+  padding: 0;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 30px;
+}
+
+.footer__list {
+  list-style: none;
+  right: 0;
+}
+
+.footer__list__text {
+  display: flex;
+  row-gap: 20px;
+  flex-direction: column;
+  margin: 0;
+}
+
+.footer__column_content_social {
+}
+
+.footer-text__column_link {
+  list-style: none;
 }
