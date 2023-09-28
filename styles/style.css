@@ -245,6 +245,7 @@
   color: white;
   position: relative;
   padding: 100px 0 100px;
+  z-index: -2;
 }
 
 .section-title_theme_dark {
@@ -326,11 +327,13 @@
   font-size: 18px;
   font-weight: bold;
   line-height: 30px;
+  margin-top: 0;
 }
 
 .footer__list {
   list-style: none;
-  right: 0;
+  padding: 0;
+  margin-top: 0;
 }
 
 .footer__list__text {
@@ -340,9 +343,17 @@
   margin: 0;
 }
 
-.footer__column_content_social {
+.footer__list_link {
+  padding-bottom: 18px;
 }
 
-.footer-text__column_link {
-  list-style: none;
+.footer__column_content_social {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.footer__list_column_link {
+  padding-bottom: 18px;
 }
