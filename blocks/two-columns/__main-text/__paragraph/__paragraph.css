@@ -1,0 +1,12 @@
+.main-text__paragraph {
+  line-height: 34px;
+  font-size: 24px;
+  min-width: 784px;
+  width: 80%;
+  row-gap: 30px;
+  margin: 0 auto 0;
+}
+
+.main-text__paragraph_text {
+  margin-top: 0;
+}
