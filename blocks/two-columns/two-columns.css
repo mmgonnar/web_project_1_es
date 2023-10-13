@@ -4,9 +4,11 @@
 @import url(./__main-text/__span_accent/__span_accent.css);
 
 
+
 .two-columns {
-  width: 100%;
+  width: 80%;
   columns: 2;
   display: flex;
   justify-content: space-between;
+  margin: auto;
 }
