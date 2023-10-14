@@ -1,0 +1,8 @@
+.feynman__link {
+  line-height: 52px;
+  font-size: 36px;
+  display: flex;
+  position: absolute;
+  right: 48px;
+  align-items: center;
+}
