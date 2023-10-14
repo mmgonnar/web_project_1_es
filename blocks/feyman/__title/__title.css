@@ -1,8 +1,9 @@
-.feynman_subtitle {
-  line-height: 51px;
-  font-size: 36px;
-  display: flex;
+.feynman_title {
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+  width: 775px;
   justify-content: center;
+  text-align: center;
   margin: 0;
-  font-weight: normal;
 }
