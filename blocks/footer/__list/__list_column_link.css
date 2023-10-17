@@ -1,5 +1,5 @@
 .footer__list_column_link {
-  padding-bottom: 18px;
+  padding: 0;
   text-decoration: none;
-  color: white;
+  margin-bottom: 18px;
 }
