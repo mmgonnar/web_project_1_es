@@ -1,0 +1,7 @@
+@import url(./__image/__image.css);
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 920px;
+}
