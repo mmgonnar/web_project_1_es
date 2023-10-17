@@ -8,5 +8,5 @@
 }
 
 .square_item_type_rotation {
-  animation: rotate 20s linear infinite;
+  animation: square_item_type_rotation 20s linear infinite;
 }
