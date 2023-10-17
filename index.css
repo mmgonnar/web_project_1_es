@@ -9,6 +9,8 @@
 @import url(./blocks/section-title/section-title.css);
 @import url(./blocks/table/table.css);
 
+@import url(./blocks/feynman/feynman.css);
+
 .page {
   min-width: 1100px;
   /* we don't know how to make mobile versions of websites yet, */
@@ -26,17 +28,3 @@
 .digits {
   padding-bottom: 0 0 100px;
 }
-
-.feynman {
-  background-color: #f2f2f2;
-  height: 790px;
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  justify-content: center;
-  z-index: -2;
-  align-items: center;
-  margin-top: 90px;
-  row-gap: 80px;
-}
-
