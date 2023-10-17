@@ -4,3 +4,11 @@
   width: 90%;
   margin: auto;
 }
+
+.column-heading {
+  padding: 0;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 30px;
+  margin-top: 0;
+}

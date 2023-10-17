@@ -1,6 +1,9 @@
 @import url(./__columns/__columns.css);
 @import url(./__columns/__column_content_copyright.css);
 @import url(../logo/_place_footer.css);
+@import url(./__columns/__column_content_social.css);
+@import url(./__columns/__column_content_about.css);
+@import url(./__list/__list.css);
 
 .footer {
   background-color: #000;
@@ -11,4 +14,11 @@
   box-sizing: border-box;
   padding-top: 60px;
   padding-bottom: 40px;
+}
+
+.footer_author {
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: normal;
+  bottom: 0;
 }
