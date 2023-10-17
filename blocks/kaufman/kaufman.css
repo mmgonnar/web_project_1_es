@@ -1,3 +1,6 @@
+@import url(../section-title/section-title_theme_dark.css);
+@import url(../section-subtitle/section-subtitle_theme_dark.css);
+
 .kaufman {
   margin: auto;
   background-color: #000;
