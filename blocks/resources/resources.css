@@ -2,5 +2,7 @@
 @import url(./__logo/__logo.css);
 
 .resources {
-  margin: 100px auto 217px;
+  margin: auto;
+  padding-top: 100px;
+  padding-bottom: 217px;
 }
