@@ -44,6 +44,10 @@
   color: #2f80ed;
 }
 
+.link:hover {
+  opacity: 0.5;
+}
+
 .digits {
   padding-bottom: 0 0 100px;
 }
