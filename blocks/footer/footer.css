@@ -1,6 +1,6 @@
 @import url(./__columns/__columns.css);
 @import url(./__columns/__column_content_copyright.css);
-@import url(../logo/_place_footer.css);
+@import url(../logo/__footer.css);
 @import url(./__columns/__column_content_social.css);
 @import url(./__columns/__column_content_about.css);
 @import url(./__list/__list.css);
