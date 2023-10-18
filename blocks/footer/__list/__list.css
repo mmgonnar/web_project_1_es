@@ -13,3 +13,7 @@
   text-decoration: none;
   color: white;
 }
+
+.footer__list_link:hover {
+  opacity: .5;
+}
