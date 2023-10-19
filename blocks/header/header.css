@@ -1,9 +1,3 @@
-@import url(./__title/__title.css);
-@import url(./__subtitle/__subtitle.css);
-@import url(./__square/__square.css);
-@import url(./__main-illustration/__main-illustration.css);
-@import url(./__square/__square.css);
-
 .header {
   background-color: #f2f2f2;
   height: 100vh;
