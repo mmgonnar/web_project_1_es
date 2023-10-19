@@ -1,7 +1,6 @@
 @import url(./__title/__title.css);
 @import url(./__subtitle/__subtitle.css);
 @import url(./__link/__link.css);
-@import url(./__background-image/__backgroun-image.css);
 
 .feynman {
   background-color: #f2f2f2;

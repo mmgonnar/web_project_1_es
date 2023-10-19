@@ -3,7 +3,6 @@
 @import url(./__square/__square.css);
 @import url(./__main-illustration/__main-illustration.css);
 @import url(./__square/__square.css);
-@import url(../rotation/rotation.css);
 
 .header {
   background-color: #f2f2f2;
