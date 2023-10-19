@@ -1,0 +1,8 @@
+@import url(./__logo-zone/__logo-zone.css);
+@import url(./__logo/__logo.css);
+
+.resources {
+  margin: auto;
+  padding-top: 100px;
+  padding-bottom: 217px;
+}

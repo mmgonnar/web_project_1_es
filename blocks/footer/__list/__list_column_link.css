@@ -1,0 +1,9 @@
+.footer__list_column_link {
+  padding: 0;
+  text-decoration: none;
+  margin-bottom: 18px;
+}
+
+.footer__list_column_link:hover {
+  opacity: 0.5;
+}

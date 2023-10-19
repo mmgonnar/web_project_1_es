@@ -1,0 +1,19 @@
+@import url(./__container/__container.css);
+@import url(./__author/__author.css);
+@import url(./__title/__title.css);
+@import url(./__quote/__quote.css);
+@import url(./__quote/__quote-author/__quote-author.css);
+@import url(./__quote/__quote-author/__quote-author-subline.css);
+@import url(./__book-container/__book-container.css);
+@import url(./__book-container/__book-pic/__book__pic.css);
+@import url(./__book-container/__buy-link/__buy-link.css);
+
+.khan {
+  background-color: #f2f2f2;
+  padding-top: 105px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
