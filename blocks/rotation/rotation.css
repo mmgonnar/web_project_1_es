@@ -1,0 +1,26 @@
+@keyframes square_item_type_rotation {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.square_item_type_rotation {
+  animation: square_item_type_rotation 20s linear infinite;
+}
+
+
+@keyframes triangle_item_type_rotation {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.triangle_item_type_rotation {
+  animation: triangle_item_type_rotation 20s linear infinite;
+}

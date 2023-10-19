@@ -1,0 +1,96 @@
+@import url(./styles/normalize.css);
+
+@import url(./blocks/rotation/rotation.css);
+
+@import url(./blocks/logo/__header.css);
+@import url(./blocks/header/header.css);
+@import url(./blocks/header/__title/__title.css);
+@import url(./blocks/header/__subtitle/__subtitle.css);
+@import url(./blocks/header/__main-illustration/__main-illustration.css);
+@import url(./blocks/header/__square/__square.css);
+
+@import url(./blocks/description/description.css);
+@import url(./blocks/two-columns/two-columns.css);
+@import url(./blocks/two-columns/__brief/__brief.css);
+@import url(./blocks/two-columns/__main-text/__main-text.css);
+@import url(./blocks/two-columns/__main-text/__paragraph/__paragraph.css);
+@import url(./blocks/two-columns/__main-text/__span_accent/__span_accent.css);
+
+@import url(./blocks/techniques/techniques.css);
+@import url(./blocks/section-title/section-title.css);
+@import url(./blocks/section-title/section-title_theme_dark.css);
+@import url(./blocks/section-subtitle/section-subtitle.css);
+@import url(./blocks/section-subtitle/section-subtitle_theme_dark.css);
+
+@import url(./blocks/cards/cards.css);
+@import url(./blocks/cards/__item/__item.css);
+@import url(./blocks/cards/__title/__title.css);
+@import url(./blocks/cards/__description/__description.css);
+@import url(./blocks/cards/__image/__image.css);
+
+@import url(./blocks/video/video.css);
+@import url(./blocks/video/__iframes/__iframes.css);
+@import url(./blocks/video/__iframe/__iframe.css);
+@import url(./blocks/video/__iframe/video__iframe-video.css);
+
+@import url(./blocks/oakley/oakley.css);
+
+@import url(./blocks/feynman/feynman.css);
+@import url(./blocks/feynman/__title/__title.css);
+@import url(./blocks/feynman/__subtitle/__subtitle.css);
+@import url(./blocks/feynman/__link/__link.css);
+@import url(./blocks/feynman/__background-image/__backgroun-image.css);
+
+@import url(./blocks/digits/digits.css);
+@import url(./blocks/table/table.css);
+@import url(./blocks/table/__cell/__cell.css);
+@import url(./blocks/table/__cell/__cell_theme_dark.css);
+@import url(./blocks/table/__heading/__heading.css);
+@import url(./blocks/table/__text/__text.css);
+
+@import url(./blocks/khan/khan.css);
+@import url(./blocks/khan/__container/__container.css);
+@import url(./blocks/khan/__author/__author.css);
+@import url(./blocks/khan/__title/__title.css);
+@import url(./blocks/khan/__quote/__quote.css);
+@import url(./blocks/khan/__quote/__quote-author/__quote-author.css);
+@import url(./blocks/khan/__quote/__quote-author/__quote-author-subline.css);
+@import url(./blocks/khan/__book-container/__book-container.css);
+@import url(./blocks/khan/__book-container/__book-pic/__book__pic.css);
+@import url(./blocks/khan/__book-container/__buy-link/__buy-link.css);
+
+@import url(./blocks/kaufman/kaufman.css);
+@import url(./blocks/kaufman/__triangle/__triangle.css);
+
+@import url(./blocks/resources/resources.css);
+@import url(./blocks/resources/__logo-zone/__logo-zone.css);
+@import url(./blocks/resources/__logo/__logo.css);
+
+@import url(./blocks/footer/footer.css);
+@import url(./blocks/footer/__columns/__columns.css);
+@import url(./blocks/footer/__columns/__column_content_copyright.css);
+@import url(./blocks/footer/__columns/__column_content_about.css);
+@import url(./blocks/footer/__columns/__column_content_social.css);
+@import url(./blocks/footer/__list/__list.css);
+@import url(./blocks/footer/__list/__list_column_link.css);
+@import url(./blocks/footer/__social-icons/__social-icons.css);
+@import url(./blocks/logo/__footer.css);
+
+.page {
+  min-width: 1100px;
+  /* we don't know how to make mobile versions of websites yet, */
+  /* so here we've set a minimum page width */
+  max-width: 1600px;
+  /* here we've set a maximum page width */
+  margin: 0 auto;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.link {
+  text-decoration: none;
+  color: #2f80ed;
+}
+
+.link:hover {
+  opacity: 0.5;
+}

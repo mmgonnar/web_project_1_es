@@ -1,0 +1,23 @@
+.footer {
+  background-color: #000;
+  color: white;
+  min-height: 350px;
+  display: flex;
+  position: relative;
+  box-sizing: border-box;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.footer_author {
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: normal;
+  bottom: 0;
+}
+
+.footer__social-icons {
+  padding-bottom: 18px;
+  text-decoration: none;
+  color: white;
+}
