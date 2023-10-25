@@ -4,7 +4,7 @@
   margin-top: 0;
 }
 
-.footer__list_link {
+.footer__list-link {
   padding-bottom: 18px;
   display: flex;
   row-gap: 20px;
@@ -14,6 +14,6 @@
   color: white;
 }
 
-.footer__list_link:hover {
-  opacity: .5;
+.footer__list-link:hover {
+  opacity: 0.5;
 }

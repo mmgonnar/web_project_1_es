@@ -4,10 +4,6 @@
   margin-bottom: 18px;
 }
 
-.footer__social-icon {
-  margin-right: 10px;
-}
-
-.footer__social-icon:hover {
+.footer__social-icons:hover {
   opacity: 0.5;
 }

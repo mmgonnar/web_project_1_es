@@ -5,6 +5,8 @@
   position: absolute;
   right: 48px;
   align-items: center;
+  top: 0;
+  bottom: 0;
 }
 
 .feynman__link:hover {

@@ -4,6 +4,6 @@
   overflow: hidden;
   color: white;
   position: relative;
-  padding: 100px 0 100px;
+  padding-bottom: 100px;
   z-index: -2;
 }

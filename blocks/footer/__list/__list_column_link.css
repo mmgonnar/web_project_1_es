@@ -1,9 +1,27 @@
-.footer__list_column_link {
+.footer__social-icons {
+  padding-bottom: 18px;
+  text-decoration: none;
+  color: white;
+  padding-top: 18px;
+}
+
+.footer__social-icon {
+  margin-right: 10px;
+}
+
+.footer__list-link:hover {
+  opacity: 0.5;
+}
+
+.footer__list-social {
+  padding-bottom: 18px;
+  list-style: none;
+  padding: 0;
+  margin-top: 0;
+}
+
+.footer__list-icons {
   padding: 0;
   text-decoration: none;
   margin-bottom: 18px;
-}
-
-.footer__list_column_link:hover {
-  opacity: 0.5;
 }
