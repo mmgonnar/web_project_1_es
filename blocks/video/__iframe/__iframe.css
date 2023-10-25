@@ -1,9 +1,3 @@
 .video__iframe {
   gap: 20px;
 }
-
-.video__iframe-video {
-  width: 515px;
-  height: 316px;
-  border-style: none;
-}
